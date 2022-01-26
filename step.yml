@@ -48,7 +48,6 @@ inputs:
       description: |
       is_expand: true
       is_required: true
-      value_options: []
   - port:
     opts:
       title: Port
@@ -56,7 +55,6 @@ inputs:
       description: |
       is_expand: true
       is_required: true
-      value_options: []
   - username:
     opts:
       title: Username
@@ -64,7 +62,6 @@ inputs:
       description: |
       is_expand: true
       is_required: true
-      value_options: []
   - password:
     opts:
       title: Password
@@ -72,7 +69,6 @@ inputs:
       description: |
       is_expand: true
       is_required: true
-      value_options: []
   - trusted_cert:
     opts:
       title: Certificate
@@ -80,7 +76,6 @@ inputs:
       description: |
       is_expand: true
       is_required: true
-      value_options: []
 
 outputs:
   - EXAMPLE_STEP_OUTPUT:
