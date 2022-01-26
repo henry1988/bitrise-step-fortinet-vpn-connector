@@ -4,9 +4,6 @@ set -x
 unamestr=`uname`
 if [[ "$unamestr" == 'Linux' ]]; then
 
-  echo "Adding universe repository to apt-get"
-  sudo add-apt-repository "deb http://cz.archive.ubuntu.com/ubuntu cosmic main universe"
-
   echo "Update repositories, installing ppp and openfortivpn"
   sudo apt-get update && sudo apt-get install -y ppp && sudo apt-get install -y openfortivpn
 
