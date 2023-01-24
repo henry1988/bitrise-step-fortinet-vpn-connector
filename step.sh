@@ -3,7 +3,8 @@ set -x
 
 unamestr=`uname`
 if [[ "$unamestr" == 'Linux' ]]; then
-
+  echo "Add yarn public keys"
+  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
   echo "Update repositories, installing ppp and openfortivpn"
   sudo apt-get update && sudo apt-get install -y ppp && sudo apt-get install -y openfortivpn
 
