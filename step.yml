@@ -75,7 +75,7 @@ inputs:
       summary: The trusted certificate that will be used for authentication.
       description: |
       is_expand: true
-      is_required: true
+      is_required: false
 
 outputs:
   - EXAMPLE_STEP_OUTPUT:
